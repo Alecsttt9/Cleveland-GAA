@@ -158,15 +158,24 @@ body {
         <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
         <i class="fa fa-bullhorn" aria-hidden="true"></i> Youth
       </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Club History
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Community and Business Partners
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Club Shop
+      </a>
     </div>
     <!--This collapse feature is not functional-->
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <!--<div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/kacpharmacy/default/testdb"><i class="fa-solid fa-hospital-user"></i>Club History</a></li>
         <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/prescriberLookup"><i class="fa-solid fa-user-doctor"></i>Community and Business Partners</a></li>
         <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACPharmacy/default/inventoryLookup"><i class="fa-solid fa-warehouse"></i>Club Shop</a></li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </nav>  
 <!-- MAIN CONTENT HERE -->
