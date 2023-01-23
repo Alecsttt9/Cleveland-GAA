@@ -1,0 +1,105 @@
+{{extend 'cleGaaLayout1.html'}}
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+    <h1>Cleveland St. Pat's St. Jarlath's GAA</h1>
+    <h3>Northeast Ohio's home for Gaelic Games</h3>
+    <h3>Established 1948</h3>
+    <a href = "userLogin.html">
+    {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-responsive img-circle", _style="display:inline", _width="150", _alt="Club Logo")}}
+    <!--<img src="images/KACrxlogo.png" class="img-responsive img-circle" style="display:inline" alt="KAC Pharmacy" width= "450">--> </a>
+    
+  </div>
+  
+  <!-- Second Container -->
+  <div class="container-fluid text-justified">
+      <h1 class = "margin">Intranet</h1>
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="thumbnail1">
+              <p>Email marketing allows you to establish a personal link with your patients. You stay on top of things and remind everyone of the care and expertise you provide.</p>
+              <a href = "email.html"><button type="button" class="btn bg-2 btn-primary btn-lg"><span class="glyphicon glyphicon-envelope"></span>   Email</button></a>
+          </div>
+      </div>
+     
+      <div class="col-sm-4">
+          <div class="thumbnail1">
+          <p>A dedicated resource space on your website that addresses common customer queries about your products or services. A pillar of great customer service.</p>  
+          <a href = "faq.html"><button type="button" class="btn bg-2 btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span>   FAQ</button></a>
+          </div>
+      </div>
+      <div class="col-sm-4">
+          <div class="thumbnail1">
+          <p>The Office of Continuing Professional Development seeks to strategically drive pharmacy practice innovation, transformation, and increased cultural awarness.</p>
+          <a href = "contEd.html"><button type="button" class="btn bg-2 btn-primary btn-lg"><span class="glyphicon glyphicon-book"></span>    Continuing Education</button></a>
+          </div>
+      </div>
+  </div>
+  <!-- Third Container (Grid) -->
+  <div class="container-fluid bg-4">
+      <div class = "text-center">
+          <h1 class = "margin">Workflow</h1>
+              <div class = "row">
+          </div>
+      </div>
+          <div class="col-md-3">
+              <div class="panel panel-default text-center">
+                  <div class="panel-heading">
+                      <h2>Data Entry</h2>
+                  </div>
+                  <div class="panel-body">
+                      <p> Input information about patient prescriptions into record-keeping programs.</p>
+                      <img src="images/de.jpg" class="img-responsive" style="display:inline" alt="Data Entry">
+                  </div>
+                  <div class="panel-footer">
+                      <a href = "http://127.0.0.1:8000/kacpharmacy/default/Patients"><button type="button" class="btn bg-2 btn-primary btn-lg"><i class="fas fa-prescription"></i></button></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="panel panel-default text-center">
+                  <div class="panel-heading">
+                      <h2>PV1</h2>
+                  </div>
+                  <div class="panel-body">
+                      <p> Pharmacist upholds integrity of the clinical prescription review process.</p>
+                      <img src="images/pv1.jpg" class="img-responsive" style="display:inline" alt="Pharmacist Verification 1">
+                  </div>
+                  <div class="panel-footer">
+                      <a href = "http://127.0.0.1:8000/KACpharmacy/default/Prescriptions"><button type="button" class="btn bg-2 btn-primary btn-lg"><i class="fa-brands fa-stack-overflow"></i></button></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="panel panel-default text-center">
+                  <div class="panel-heading">
+                      <h2>Fill Station</h2>
+                  </div>
+                  <div class="panel-body">
+                      <p> Read medication orders and prescriptions, preparing labels and pharmaceutical therapies.</p> 
+                      <img src="images/fillstation.jpg" class="img-responsive" style="display:inline" alt="Fill Station" >
+                  </div>
+                  <div class="panel-footer">
+                      <a href = "http://127.0.0.1:8000/kacpharmacy/default/fillStations"><button type="button" class="btn bg-2 btn-primary btn-lg"><i class="fa-solid fa-pills"></i></button></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="panel panel-default text-center">
+                  <div class="panel-heading">
+                      <h2>PV2</h2>
+                  </div>
+                  <div class="panel-body">
+                      <p>  Check the accuracy of the prescription fulfillment process.</p>
+                      <img src="images/pv2.jpg" class="img-responsive" style="display:inline" alt="Pharmacist Verification 2">
+                  </div>
+                  <div class="panel-footer">
+                      <a href = "#"><button type="button" class="btn bg-2 btn-primary btn-lg"><i class="fa-solid fa-check-double"></i></button></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+

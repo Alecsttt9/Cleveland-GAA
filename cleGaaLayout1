@@ -15,7 +15,7 @@ h1 {
     font-size: xx-large;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #553739;
+    /*color: #553739;*/
     text-transform: uppercase;
 }
 
@@ -35,8 +35,8 @@ body {
     font-size: 20px;
 }
   .bg-1 { 
-    background-color: #F1b498; /* Peach */
-    color: #2FC284;
+    background-color: #03995A; /* Shamrock Green */
+    color: #FEFEFE;
   }
   .bg-2 { 
     background-color: #6f1a07; /* Rasin Black */
@@ -69,13 +69,13 @@ body {
     margin-bottom: 0;
     font-size: 15px;
     letter-spacing: 5px;
-    background-color:  #553739;
-    color: #EC9070;
+    background-color:  #ED1939;
+    color: #FEFEFE;
   }
 .navbar .li {
   border: 1px solid #6f1a07;
   background-color: #4d1e10;
-  color: #2FC284;
+  color: #FEFEFE;
 }
   .btn {
   padding: 5px 15px;
@@ -145,21 +145,26 @@ body {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a style = "color: #2FC284" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/index">
+      <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/index">
         <span class="glyphicon glyphicon-home"></span>  Home
       </a>
-      <a style = "color: #2FC284" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
-        <i class="fa-regular fa-id-card"></i>  User List
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
+        <i class="fa-regular fa-id-card"></i>  News
       </a>
-        <a style = "color: #2FC284" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
-        <i class="fa fa-bullhorn" aria-hidden="true"></i> About Us
+        <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Adult
+      </a>
+      </a>
+        <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Youth
       </a>
     </div>
+    <!--This collapse feature is not functional-->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/kacpharmacy/default/testdb"><i class="fa-solid fa-hospital-user"></i>Patient Lookup</a></li>
-        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/prescriberLookup"><i class="fa-solid fa-user-doctor"></i>Prescriber Lookup</a></li>
-        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACPharmacy/default/inventoryLookup"><i class="fa-solid fa-warehouse"></i>Inventory</a></li>
+        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/kacpharmacy/default/testdb"><i class="fa-solid fa-hospital-user"></i>Club History</a></li>
+        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/prescriberLookup"><i class="fa-solid fa-user-doctor"></i>Community and Business Partners</a></li>
+        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACPharmacy/default/inventoryLookup"><i class="fa-solid fa-warehouse"></i>Club Shop</a></li>
       </ul>
     </div>
   </div>
