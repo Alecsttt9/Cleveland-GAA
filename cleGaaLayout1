@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- THIS IS THE LAYOUT FOR THE HOMEPAGE -->
-  <title>Official Cleveland GAA</title>
+  <title>Official - Cleveland GAA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,10 +20,10 @@ h1 {
 }
 
 .container-fluid {
-  padding: 60px 50px;
+  padding: 30px 25px; /*originally 60px 50px 1/24/2023*/
 }
 .margin {
-    margin-top: 45px;
+    margin-top: 45px;   /* both originally 45px 45px 1/24/2023 */
     margin-bottom: 45px;
 }
 body {
@@ -62,13 +62,13 @@ body {
     margin: 25px 0;
   }
   .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 15px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     background-color:  #ED1939;
     color: #FEFEFE;
   }
