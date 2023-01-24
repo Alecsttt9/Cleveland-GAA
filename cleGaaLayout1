@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- THIS IS THE LAYOUT FOR THE HOMEPAGE -->
-  <title>Cleveland GAA</title>
+  <title>Official Cleveland GAA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -153,11 +153,14 @@ body {
       <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
         <i class="fa-regular fa-id-card"></i>  News
       </a>
-        <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
+        <i class="fa-regular fa-id-card"></i>  Fixtures & Results
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
         <i class="fa fa-bullhorn" aria-hidden="true"></i> Adult
       </a>
       </a>
-        <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
         <i class="fa fa-bullhorn" aria-hidden="true"></i> Youth
       </a>
       <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
