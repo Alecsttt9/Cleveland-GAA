@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- THIS IS THE LAYOUT FOR THE HOMEPAGE -->
-  <title>Official - Cleveland GAA</title>
+  <title>Official Cleveland GAA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,11 +20,11 @@ h1 {
 }
 
 .container-fluid {
-  padding: 30px 25px; /*originally 60px 50px 1/24/2023*/
+  padding: 5px 15px; /* originally 60px 50px 1/24/2023 */
 }
 .margin {
-    margin-top: 45px;   /* both originally 45px 45px 1/24/2023 */
-    margin-bottom: 45px;
+    margin-top: 25px;   /* both originally 45px 45px 1/24/2023 */
+    margin-bottom: 15px;
 }
 body {
     font-size: 20px;
@@ -37,6 +37,7 @@ body {
   .bg-1 { 
     background-color: #03995A; /* Shamrock Green */
     color: #FEFEFE;
+    <!-- background-image: url("static/images/allCodes.png"); I WANT TO HAVE THIS BE BACKGROUND IMAGE OF FIRST DIV 1/25/2023 -->
   }
   .bg-2 { 
     background-color: #6f1a07; /* Rasin Black */
