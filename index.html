@@ -15,7 +15,7 @@
   <!-- Second Container -->
   <div class="container-fluid text-justified">
       <hr>
-      <h1 class = "margin">Latest News and Upcoming Events</h1>
+      <h1 class = "margin">News and Upcoming Events</h1>
       <hr>
       <div class="row">
           <div class="col-sm-4">
@@ -50,21 +50,25 @@
   </div>
 
 
-  <!-- Third Container (Grid) -->
-  <div class="container-fluid bg-4">
+  <!-- Third Container (Grid) --> 
+  <div class="container-fluid bg-2">
       <div class = "text-center">
-          <h1 class = "margin">Workflow</h1>
+          <h1 class = "margin" style="color:white;">Latest Results</h1>
               <div class = "row">
           </div>
       </div>
           <div class="col-md-3">
               <div class="panel panel-default text-center">
                   <div class="panel-heading">
-                      <h2>Data Entry</h2>
+                      <h2>Men's Gaelic Football</h2>
                   </div>
                   <div class="panel-body">
-                      <p> Input information about patient prescriptions into record-keeping programs.</p>
-                      <img src="images/de.jpg" class="img-responsive" style="display:inline" alt="Data Entry">
+                      <p>Cleveland GAA 3-12<br>
+                         Dublin GAA 1-5
+                      </p>
+                      {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _target="_blank", _class="img-rounded", _width="100",_alt="Cleveland GAA")}}
+                      {{=IMG(_src=URL('static/images', 'dublinGaaLogo.jpeg'), _target="_blank", _class="img-rounded", _width="100",_alt="Dublin GAA")}}
+                      <!-- <img src="images/de.jpg" class="img-responsive" style="display:inline" alt="Data Entry"> -->
                   </div>
                   <div class="panel-footer">
                       <a href = "http://127.0.0.1:8000/kacpharmacy/default/Patients"><button type="button" class="btn bg-2 btn-primary btn-lg"><i class="fas fa-prescription"></i></button></a>
@@ -74,11 +78,14 @@
           <div class="col-md-3">
               <div class="panel panel-default text-center">
                   <div class="panel-heading">
-                      <h2>PV1</h2>
+                      <h2>Ladies's Gaelic Football</h2>
                   </div>
                   <div class="panel-body">
-                      <p> Pharmacist upholds integrity of the clinical prescription review process.</p>
-                      <img src="images/pv1.jpg" class="img-responsive" style="display:inline" alt="Pharmacist Verification 1">
+                      <p> Cleveland GAA 5-20<br>
+                          Charlotte GAA 0-4
+                      </p>
+                      {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _target="_blank", _class="img-rounded", _width="100",_alt="Cleveland GAA")}}
+                      {{=IMG(_src=URL('static/images', 'charlotteGaaLogo.jpeg'), _target="_blank", _class="img-rounded", _width="100",_alt="Charlotte GAA")}}
                   </div>
                   <div class="panel-footer">
                       <a href = "http://127.0.0.1:8000/KACpharmacy/default/Prescriptions"><button type="button" class="btn bg-2 btn-primary btn-lg"><i class="fa-brands fa-stack-overflow"></i></button></a>
@@ -88,7 +95,7 @@
           <div class="col-md-3">
               <div class="panel panel-default text-center">
                   <div class="panel-heading">
-                      <h2>Fill Station</h2>
+                      <h2>Hurling</h2>
                   </div>
                   <div class="panel-body">
                       <p> Read medication orders and prescriptions, preparing labels and pharmaceutical therapies.</p> 
@@ -102,7 +109,7 @@
           <div class="col-md-3">
               <div class="panel panel-default text-center">
                   <div class="panel-heading">
-                      <h2>PV2</h2>
+                      <h2>Camogie</h2>
                   </div>
                   <div class="panel-body">
                       <p>  Check the accuracy of the prescription fulfillment process.</p>
