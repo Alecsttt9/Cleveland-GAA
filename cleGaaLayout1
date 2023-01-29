@@ -68,7 +68,7 @@ body {
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 14.5px;
     letter-spacing: 3px;
     background-color:  #ED1939;
     color: #FEFEFE;
@@ -80,8 +80,8 @@ body {
 }
   .btn {
   padding: 5px 15px;
-  background-color: #553739;
-  color: #D9976B;
+  background-color: #03995A;
+  color: #03995A;
   border-radius: 0;
   transition: .2s;
   font-size: xx-large;
@@ -112,15 +112,15 @@ body {
 }
 .panel-footer {
     height: 15%;
-    background-color: #fff;
+    background-color: #EFEFEF;
 }
 .panel-footer .btn:hover {
   border: 1px solid #6f1a07;
-  background-color: #4d1e10;
+  background-color: #ED1939;
   color: #2b2118;
 }
 .panel-footer .btn {
-    background-color: #553739;
+    background-color: #03995A;
     color: #D9976B;
 }
 .logo-small {
@@ -167,10 +167,13 @@ body {
         <i class="fa fa-bullhorn" aria-hidden="true"></i> About the Club
       </a>
       <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
-        <i class="fa fa-bullhorn" aria-hidden="true"></i> Community Partners
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Our Sponsors
       </a>
       <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
         <i class="fa fa-bullhorn" aria-hidden="true"></i> Club Shop
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Registration
       </a>
     </div>
     <!--This collapse feature is not functional-->
