@@ -195,6 +195,11 @@ body {
 
 <!-- Footer -->
 <footer class="container-fluid bg-1 text-center">
+  <div class="row">
+    <div class="col-md-2">
+      {{=IMG(_src=URL('static/images', 'ecoverseLogo.jpeg'), _target="_blank", _class="img-rounded", _alt="ecoverse")}}
+    </div>
+  </div>
   <p>Alexander Stott Cleveland GAA &copy; 2023 </p> 
   <p><a style = "color:#2FC284" href="https://www.tri-c.edu/programs/information-technology/programming-and-development/clevelandcodes.html">Cleveland Codes Software Developers Academy &copy; 2023</a></p> 
 </footer>  
