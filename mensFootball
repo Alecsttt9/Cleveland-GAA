@@ -2,5 +2,37 @@
 {{extend 'cleGaaLayout1.html'}}
 <div class="container-fluid bg-1 text-center">
     <h1>Cleveland GAA St. Pat's - St. Jarlath's Men's Football Team</h1>
-    {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _width="1000",_alt="Club Logo")}}
+    {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _width="500",_alt="Club Logo")}}
 </div>
+
+<!--Role of Honor-->
+<div class="container">
+    <h2>Men's Football Roll of Honor</h2>
+    <!-- <p>The .table-striped class adds zebra-stripes to a table:</p> -->           
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Competition</th>
+          <th>No. </th>
+          <th>Years</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Midwest Championship</td>
+          <td>32</td>
+          <td>1948-1980</td>
+        </tr>
+        <tr>
+          <td>Senior National Championship</td>
+          <td>5</td>
+          <td>1962, 1964-1966, 1968</td>
+        </tr>
+        <tr>
+          <td>Junior National Championship</td>
+          <td>3</td>
+          <td>2005, 2006, 2015</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
