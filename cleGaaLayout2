@@ -146,6 +146,19 @@ p {
   font-size: 200px;
 }
 
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+    display: none; 
+}
+}
+
   </style>
 </head>
 <body>
@@ -161,7 +174,7 @@ p {
       </button>
       {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
       <!-- {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-responsive img-circle", _style="display:inline", _width="150", _alt="Club Logo")}} -->
-      <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/index">
+      <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
         <span class="glyphicon glyphicon-home"></span>  Home
       </a>
       <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
