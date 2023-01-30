@@ -57,7 +57,7 @@
     </a>
 </div>
 
-
+<body>
 <!--2023 Fixtures-->
 <div class="container" style="margin-top:25px">
     <h2>2023 Fixtures</h2>
@@ -77,7 +77,7 @@
           <td>May 28, 2023</td>
           <td>West-Side Irish American Club</td>
           <td>Cleveland GAA</td>
-          <td>N/A</td>
+          <td>N/A - Memorial 7's Tournament</td>
           <td>N/A</td>
         </tr>
         <tr>
@@ -88,11 +88,46 @@
           <td>TBD</td>
         </tr>
         <tr>
-          <td>Lorum ipsum</td>
-          <td>Lorum ipsum</td>
-          <td>Lorum ipsum</td>
-          <td>Lorum ipsum</td>
-          <td>Lorum ipsum</td>
+          <td>June 20, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>PittsBurgh GAA</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>July 1, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>Cincinnatti GAA</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>July 14, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>Buffalo Fenians</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>July 25, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>Albany Rebels</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>August 7-9, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>N/A - Midwest GAA Championship Tournament</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>August 22-25, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>N/A - USGAA Championship Tournament</td>
+          <td>TBD</td>
         </tr>
       </tbody>
     </table>
@@ -129,3 +164,4 @@
       </tbody>
     </table>
   </div>
+</body>
