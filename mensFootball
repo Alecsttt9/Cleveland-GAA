@@ -2,7 +2,7 @@
 {{extend 'cleGaaLayout2.html'}}
 <div class="container-fluid bg-1 text-center">
     <h1>Men's Gaelic Football</h1>
-    {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _width="500",_alt="Club Logo")}}
+    <!-- {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _width="500",_alt="Club Logo")}} -->
 </div>
 
 <!--IMAGE CAROUSEL-->
@@ -15,8 +15,8 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+      <div class="item active carousel-inner img">
+        {{=IMG(_src=URL('static/images', 'mensFootball2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <!-- <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image"> -->
         <div class="carousel-caption">
           <h3>Sell $</h3>
@@ -24,15 +24,15 @@
         </div>      
       </div>
 
-      <div class="item">
-        {{=IMG(_src=URL('static/images', 'mensFootball2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+      <div class="item carousel-inner img">
+        {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
           <h3>More Sell $</h3>
           <p>Lorem ipsum...</p>
         </div>      
       </div>
 
-      <div class="item">
+      <div class="item carousel-inner img">
         {{=IMG(_src=URL('static/images', 'mensFootball3.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
           <h3>More Sell $</h3>
@@ -54,9 +54,9 @@
 
 
 <!--Role of Honor-->
-<div class="container-fluid bg-2">
+<div class="container">
     <h2>Men's Football Roll of Honor</h2>
-    <!-- <p>The .table-striped class adds zebra-stripes to a table:</p> -->           
+    <!-- <p>The .table-striped class adds zebra-stripes to a table:</p> -->
     <table class="table table-striped">
       <thead>
         <tr>
