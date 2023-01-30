@@ -37,7 +37,7 @@ body {
   .bg-1 {
     background-color: #03995A; /* Shamrock Green */
     color: #FEFEFE;
-    background-image: url('static/images/allCodes.png');
+    /* <!-- background-image: url('static/images/allCodes.png'); --> */
   }
   .bg-2 { 
     background-color: #ED1939; /* <!-- #6f1a07; --> */ /* Rasin Black */
@@ -148,7 +148,7 @@ body {
       </button>
       {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
       <!-- {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-responsive img-circle", _style="display:inline", _width="150", _alt="Club Logo")}} -->
-      <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/index">
+      <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
         <span class="glyphicon glyphicon-home"></span>  Home
       </a>
       <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
