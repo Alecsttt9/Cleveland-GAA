@@ -1,2 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <!-- THIS IS THE CSS FOR THE Men's Football page -->
+  <title>Official Cleveland GAA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/78fc201897.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.container-fluid {
+  padding: 5px 15px; /* originally 60px 50px 1/24/2023 */
+}
+
+.margin {
+    margin-top: 25px;   /* both originally 45px 45px 1/24/2023 */
+    margin-bottom: 15px;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.0;
+  }
+
+p {
+    font-size: 20px;
+}
+
+  .bg-1 {
+    background-color: #03995A; /* Shamrock Green */
+    color: #FEFEFE;
+    /* background-image: url('static/images/allCodes.png'); */
+  }
+
+  .bg-2 { 
+    background-color: #ED1939; /* <!-- #6f1a07; --> */ /* Rasin Black */
+    /* <!-- color: #f1bf98; --> */
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .bg-3 { 
+    background-color: #553739; /* Dark Liver Horse */
+    color: #F1b498;
+  }
+
+  .bg-4 { 
+    background-color: #955e42; /* Brown Sugar */
+    color: #F1b498
+  }
+
+  .bg-5 {
+    background-color: #748e45;
+    color: #232
+  }
+
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14.5px;
+    letter-spacing: 3px;
+    background-color:  #ED1939;
+    color: #FEFEFE;
+  }
+
+  .navbar .li {
+  border: 1px solid #6f1a07;
+  background-color: #4d1e10;
+  color: #FEFEFE;
+}
+
+  .btn {
+  padding: 5px 15px;
+  background-color: #03995A;
+  color: #03995A;
+  border-radius: 0;
+  transition: .2s;
+  font-size: xx-large;
+  }
+
+  .thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+    background-color: #F1b498;
+    color: #ffffff;
+  }
+.panel {
+    border: 1px solid #6f1a07;
+    border-radius:0;
+    transition: box-shadow 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.panel-heading {
+    color: #f1bf98;
+    background-color: #6F1A07;
+    border-bottom: 3px solid transparent;  
+}
+.panel-body .col-sm-3{
+    width: 25%; 
+    ; 
+    padding: 2%;
+}
+.panel-footer {
+    height: 15%;
+    background-color: #EFEFEF;
+}
+.panel-footer .btn:hover {
+  border: 1px solid #6f1a07;
+  background-color: #ED1939;
+  color: #2b2118;
+}
+.panel-footer .btn {
+    background-color: #03995A;
+    color: #D9976B;
+}
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->   
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
+      <!-- {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-responsive img-circle", _style="display:inline", _width="150", _alt="Club Logo")}} -->
+      <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/index">
+        <span class="glyphicon glyphicon-home"></span>  Home
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
+        <i class="fa-regular fa-id-card"></i>  News 
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/userList">
+        <i class="fa-regular fa-list-alt"></i>  Fixtures & Results
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Adult
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Youth
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> About the Club
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Our Sponsors
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Club Shop
+      </a>
+      <a style = "color: #FEFEFE" class = "navbar-link" href ="http://127.0.0.1:8000/KACPharmacy/default/about">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i> Registration
+      </a>
+    </div>
+    <!--This collapse feature is not functional-->
+    <!--<div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/kacpharmacy/default/testdb"><i class="fa-solid fa-hospital-user"></i>Club History</a></li>
+        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/prescriberLookup"><i class="fa-solid fa-user-doctor"></i>Community and Business Partners</a></li>
+        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACPharmacy/default/inventoryLookup"><i class="fa-solid fa-warehouse"></i>Club Shop</a></li>
+      </ul>
+    </div> -->
+  </div>
+</nav>  
+<!-- MAIN CONTENT HERE -->
+<!-- Begin page content -->
+<div class="container-fluid main-container">
+      {{include}}
+      {{=response.toolbar() if response.show_toolbar else ''}}
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-1 text-center">
+  <p>Alexander Stott Cleveland GAA &copy; 2023 </p> 
+  <p><a style = "color:#2FC284" href="https://www.tri-c.edu/programs/information-technology/programming-and-development/clevelandcodes.html">Cleveland Codes Software Developers Academy &copy; 2023</a></p> 
+</footer>  
+
+</body>
+</html>
+
+
+</style>
+</head> 
