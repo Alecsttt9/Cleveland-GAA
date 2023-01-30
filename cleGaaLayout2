@@ -41,12 +41,14 @@ p {
     background-color: #03995A; /* Shamrock Green */
     color: #FEFEFE;
     /* background-image: url('static/images/allCodes.png'); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .bg-2 { 
     background-color: #ED1939; /* <!-- #6f1a07; --> */ /* Rasin Black */
     /* <!-- color: #f1bf98; --> */
     font-size: 15px;
+    color: #FEFEFE;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
