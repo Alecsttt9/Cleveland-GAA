@@ -222,9 +222,19 @@ p {
 
 <!-- Footer -->
 <footer class="container-fluid bg-1 text-center">
-  <p>Alexander Stott Cleveland GAA &copy; 2023 </p> 
-  <p><a style = "color:#2FC284" href="https://www.tri-c.edu/programs/information-technology/programming-and-development/clevelandcodes.html">Cleveland Codes Software Developers Academy &copy; 2023</a></p> 
-</footer>  
+    <div class="row">
+      <div style="margin: 20px 10px">
+        {{=IMG(_src=URL('static/images', 'ecoverseLogo.jpeg'), _width="16%",  _target="_blank", _class="img-rounded", _alt="ecoverse")}}
+        {{=IMG(_src=URL('static/images', 'gormleysLogo.png'), _height="250px", _width="16%", _target="_blank", _class="img-rounded", _alt="gormleys")}}
+        {{=IMG(_src=URL('static/images', 'pjLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pj's")}}
+        {{=IMG(_src=URL('static/images', 'plankLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Plank Road")}}
+        {{=IMG(_src=URL('static/images', 'prideLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pride")}}
+        {{=IMG(_src=URL('static/images', 'skylightLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Skylight")}}
+      </div>
+    </div>
+    <p>Alexander Stott Cleveland GAA &copy; 2023 </p> 
+    <p><a style = "color:#2FC284" href="https://www.tri-c.edu/programs/information-technology/programming-and-development/clevelandcodes.html">Cleveland Codes Software Developers Academy &copy; 2023</a></p> 
+  </footer>  
 
 </body>
 </html>
