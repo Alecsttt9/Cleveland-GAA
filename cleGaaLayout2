@@ -53,8 +53,8 @@ p {
   }
 
   .bg-3 { 
-    background-color: #553739; /* Dark Liver Horse */
-    color: #F1b498;
+    background-image: linear-gradient(to right, #FFBB00, #ED1939);
+    color: #FEFEFE;
   }
 
   .bg-4 { 
