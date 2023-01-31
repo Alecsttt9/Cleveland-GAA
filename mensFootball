@@ -72,13 +72,19 @@
   <div class="col-sm-6">
       <div class="about">
       <h2>Team News & Updates</h2>
-      <p>Cleveland GAA hosted indoor Gaelic Football practices in December and has more planned for early 2023. Stay tuned for new dates, and check out our recap video.</p>
-      {{=IMG(_src=URL('static/images', 'indoorFootball.jpg'), _target="_blank", _class="img-rounded", _width="400",_alt="indoor football")}}
-       <video width="320" height="240" controls>
+      <details>
+          <summary><strong>Indoor Gaelic Football</strong></summary>
+          <p>Cleveland GAA hosted indoor Gaelic Football practices in December and has more planned for early 2023. Stay tuned for new dates, and check out our recap video.</p><br>
+          {{=IMG(_src=URL('static/images', 'indoorFootball.jpg'), _target="_blank", _class="img-rounded", _width="400",_alt="indoor football")}}
+          <video width="320" height="240" controls>
           <source src="indoorFootballVid.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-      <!-- <a href = "faq.html"><button type="button" class="btn bg-2 btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span>   FAQ</button></a> -->
+      </details>
+      <details>
+          <summary><strong>Superbowl Square Fundraiser</strong></summary>
+          <p>Details about fundrasier go here</p><br>
+      </details>
       </div>
   </div>
 </div>
