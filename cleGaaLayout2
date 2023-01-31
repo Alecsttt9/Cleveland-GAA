@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- THIS IS THE CSS FOR THE Men's & Ladies Football, Hurling, and Camogie pages -->
-  <title>Official Cleveland GAA</title>
+  <title>Prototype Cleveland GAA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -255,15 +255,9 @@ p {
       <a href="http://127.0.0.1:8000/clevelandGAA/default/camogie">Camogie</a>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Youth 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="#">Gaelic Football</a>
-      <a href="#">Hurling and Camogie</a>
-    </div>
-  </div>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Youth
+  </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
     <i class="fa-regular fa-id-card"></i>Fixtures & Results
   </a>
