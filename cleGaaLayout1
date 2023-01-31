@@ -73,6 +73,7 @@ body {
     letter-spacing: 3px;
     background-color:  #ED1939;
     color: #FEFEFE;
+    overflow: hidden; /* added for dropdown 1/30/23 9.13pm*/
   }
 .navbar .li {
   border: 1px solid #6f1a07;
@@ -142,10 +143,10 @@ body {
 }
 
 /* new CSS for dropdown navbar 1/30/23*/
-.navbar {
+/*.navbar {    hidden bc class w same name already exists
   overflow: hidden;
   background-color: #333;
-}
+}*/
 
 .navbar a {
   float: left;
@@ -204,6 +205,52 @@ body {
   </style>
 </head>
 <body>
+
+<!--NEW DROPDOWN NAVBAR 1/30/23-->
+
+<div class="navbar">
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <span class="glyphicon glyphicon-home"></span>Home
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>News
+  </a>
+  <div class="dropdown">
+    <button class="dropbtn">Adult 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">Men's Gaelic Football</a>
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">Ladies' Gaelic Football</a>
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/hurling">Hurling</a>
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/camogie">Camogie</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Youth 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Gaelic Football</a>
+      <a href="#">Hurling and Camogie</a>
+    </div>
+  </div>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Fixtures & Results
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>About the Club
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Our Sponsors
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Club Shop
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Registration
+  </a> 
+</div>
 
 <!-- Navbar -->   
 <nav class="navbar navbar-default">
