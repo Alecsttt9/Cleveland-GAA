@@ -257,10 +257,10 @@ body {
     </div>
   </div>
   <div class="dropdown">
-    <button class="dropbtn">Youth 
+    <button class="dropbtn" onclick="myFunction()">Youth 
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
+    <div class="dropdown-content" id="myDropdown">
       <a href="#">Gaelic Football</a>
       <a href="#">Hurling and Camogie</a>
     </div>
