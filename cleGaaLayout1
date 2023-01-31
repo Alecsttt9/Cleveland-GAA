@@ -63,7 +63,7 @@ body {
     text-align: center;
     margin: 25px 0;
   }
-      <!-- first navbar css 1/17/2023
+      /*<!-- first navbar css 1/17/2023
   .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -74,13 +74,13 @@ body {
     letter-spacing: 3px;
     background-color:  #ED1939;
     color: #FEFEFE;
-    overflow: hidden; /* added for dropdown 1/30/23 9.13pm*/
+    overflow: hidden; /* added for dropdown 1/30/23 9.13pm
   } -->
 .navbar .li {
   border: 1px solid #6f1a07;
   background-color: #4d1e10;
   color: #FEFEFE;
-}
+} */
   .btn {
   padding: 5px 15px;
   background-color: #03995A;
@@ -143,18 +143,11 @@ body {
   width: auto;
 }
 
-/* new CSS for dropdown navbar 1/30/23*/
+/* new CSS for clickable dropdown navbar 1/30/23*/
 .navbar {
   overflow: hidden;
-  background-color: #ED1939;
-  color: #FEFEFE;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 14.5px;
-  letter-spacing: 3px;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
@@ -172,6 +165,7 @@ body {
 }
 
 .dropdown .dropbtn {
+  cursor: pointer;
   font-size: 16px;  
   border: none;
   outline: none;
@@ -182,7 +176,7 @@ body {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
   background-color: red;
 }
 
@@ -208,7 +202,7 @@ body {
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.show {
   display: block;
 }
   </style>
@@ -261,6 +255,23 @@ body {
   </a> 
 </div>
 
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
 
 
 <!-- First Navbar 1/17/23-->
