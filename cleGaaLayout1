@@ -41,8 +41,8 @@ h1 {
   padding: 5px 15px; /* originally 60px 50px 1/24/2023 */
 }
 .margin {
-    margin-top: 15px;   /* both originally 45px 45px 1/24/2023 */
-    margin-bottom: 25px;
+    margin-top: 5px;   /* both originally 45px 45px 1/24/2023 */
+    margin-bottom: 5px;
 }
 body {
     font-size: 20px;
