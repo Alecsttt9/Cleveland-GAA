@@ -41,8 +41,8 @@ h1 {
   padding: 5px 15px; /* originally 60px 50px 1/24/2023 */
 }
 .margin {
-    margin-top: 25px;   /* both originally 45px 45px 1/24/2023 */
-    margin-bottom: 15px;
+    margin-top: 15px;   /* both originally 45px 45px 1/24/2023 */
+    margin-bottom: 25px;
 }
 body {
     font-size: 20px;
@@ -62,6 +62,7 @@ body {
     /* <!-- color: #f1bf98; --> */
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .bg-3 { 
     background-image: linear-gradient(to bottom right, #03995A, #ED1939);
