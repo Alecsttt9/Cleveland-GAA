@@ -64,8 +64,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .bg-3 { 
-    background-color: #553739; /* Dark Liver Horse */
-    color: #F1b498;
+    background-image: linear-gradient(to bottom right, #03995A, #ED1939);
   }
   .bg-4 { 
     background-color: #955e42; /* Brown Sugar */
