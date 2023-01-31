@@ -55,21 +55,29 @@
 <!--ABOUT SECTION-->
 <div class="container-fluid text-justified">
   <hr>
-  <h1 class = "margin">News and Upcoming Events</h1>
+  <h1 class = "margin">Cleveland St. Pat's - St. Jarlath's Men's Gaelic Football</h1>
+  <h2 class = "margin">The Saint's - na Naomh</h2>
   <hr>
   <div class="row">
       <div class="col-sm-6">
-          <div class="thumbnail">
-          <h2>Mens Football</h2>
-          <p>Info about men's football </p>
+          <div class="about">
+          <h2>About the men's football team</h2>
+          <p> Cleveland has a rich history of Gaelic sports and in 1948 the St. Pat’s Club was established. St. Pat’s would go on to win several national football championships at senior level in 1962, 1964-1966, and 1968. Years later in 1980, St. Jarlath’s formed to become a perpetual favorite within the Midwest and collect national titles at the junior level in 2005 and 2006. After the 2015 national title by St. Pat’s at the junior level, the two Cleveland clubs rejoined.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Ready to learn more? Fill out the questionnaire below:</p>
+          <p>Google Form questionnaire will go here</p>
           </div>
         </div>
 
   <div class="col-sm-6">
-      <div class="thumbnail">
-      <h2>Indoor Hurling and Camogie 2023</h2>
-      <p>Cleveland GAA is hosting indoor hurling and camogie sessions throughout early 2023</p>
-      {{=IMG(_src=URL('static/images', 'indoorHurling.png'), _target="_blank", _class="img-rounded", _width="400",_alt="indoor hurling")}}
+      <div class="about">
+      <h2>Team News & Updates</h2>
+      <p>Cleveland GAA hosted indoor Gaelic Football practices in December and has more planned for early 2023. Stay tuned for new dates, and check out our recap video.</p>
+      {{=IMG(_src=URL('static/images', 'indoorFootball.jpg'), _target="_blank", _class="img-rounded", _width="400",_alt="indoor football")}}
+       <video width="320" height="240" controls>
+          <source src="indoorFootballVid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       <!-- <a href = "faq.html"><button type="button" class="btn bg-2 btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span>   FAQ</button></a> -->
       </div>
   </div>
