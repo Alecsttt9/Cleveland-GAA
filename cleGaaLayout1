@@ -81,6 +81,7 @@ body {
   background-color: #4d1e10;
   color: #FEFEFE;
 } */
+/*
   .btn {
   padding: 5px 15px;
   background-color: #03995A;
@@ -88,7 +89,7 @@ body {
   border-radius: 0;
   transition: .2s;
   font-size: xx-large;
-  }
+  }*/
   .thumbnail {
   padding: 0 0 15px 0;
   border: none;
@@ -117,6 +118,7 @@ body {
     height: 15%;
     background-color: #EFEFEF;
 }
+/*
 .panel-footer .btn:hover {
   border: 1px solid #6f1a07;
   background-color: #ED1939;
@@ -125,7 +127,7 @@ body {
 .panel-footer .btn {
     background-color: #03995A;
     color: #D9976B;
-}
+} */
 .logo-small {
   color: #f4511e;
   font-size: 50px;
