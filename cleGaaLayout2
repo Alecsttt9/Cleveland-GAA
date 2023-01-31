@@ -18,6 +18,14 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 .container-fluid {
   padding: 5px 15px; /* originally 60px 50px 1/24/2023 */
 }
@@ -73,7 +81,7 @@ p {
   }
 
   .col-sm-6 {
-    text-align: center;
+    text-align: left;
     margin: 25px 0;
   }
 
@@ -112,6 +120,13 @@ p {
     background-color: #F1b498;
     color: #ffffff;
   }
+
+.about{
+    padding: 15px 15px 15px 15px;
+    border-style: solid;
+    border-radius: 0;
+    color: #211A1E;
+}
 .panel {
     border: 1px solid #6f1a07;
     border-radius:0;
