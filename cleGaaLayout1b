@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- THIS IS THE *BACKUP* LAYOUT FOR THE HOMEPAGE -->
+  <title>Official Cleveland GAA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--for clickable dropdown navbar-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/78fc201897.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
+
+<style>
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*color: #553739;*/
+    text-transform: uppercase;
+}
+
+.container-fluid {
+  padding: 5px 15px; /* originally 60px 50px 1/24/2023 */
+}
+.margin {
+    margin-top: 25px;   /* both originally 45px 45px 1/24/2023 */
+    margin-bottom: 15px;
+}
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.0;
+  }
+  p {
+    font-size: 20px;
+}
+
+.bg-1 {
+    background-color: #03995A; /* Shamrock Green */
+    color: #FEFEFE;
+    /* <!-- background-image: url('static/images/allCodes.png'); --> */
+  }
+
+.bg-2 { 
+    background-color: #ED1939; /* <!-- #6f1a07; --> */ /* Rasin Black */
+    /* <!-- color: #f1bf98; --> */
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.bg-3 { 
+    background-color: #553739; /* Dark Liver Horse */
+    color: #F1b498;
+  }
+.bg-4 { 
+    background-color: #955e42; /* Brown Sugar */
+    color: #F1b498
+  }
+.bg-5 {
+    background-color: #748e45;
+    color: #232
+  }
+
+.col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .navbar {
+  overflow: hidden;
+  background-color:  #ED1939;
+  color: #FEFEFE;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14.5px;
+  letter-spacing: 2.5px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+  </style>
+</head>
+<body>
+
+<!--NEW DROPDOWN NAVBAR 1/30/23-->
+<div class="navbar">
+  {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <span class="glyphicon glyphicon-home"></span>Home
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>News
+  </a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Adult
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">Men's Gaelic Football</a>
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">Ladies' Gaelic Football</a>
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/hurling">Hurling</a>
+      <a href="http://127.0.0.1:8000/clevelandGAA/default/camogie">Camogie</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Youth 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Gaelic Football</a>
+      <a href="#">Hurling and Camogie</a>
+    </div>
+  </div>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Fixtures & Results
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>About the Club
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Our Sponsors
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Club Shop
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Registration
+  </a> 
+</div>
+
+<!-- MAIN CONTENT HERE -->
+<!-- Begin page content -->
+<div class="container-fluid main-container">
+    {{include}}
+    {{=response.toolbar() if response.show_toolbar else ''}}
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-1 text-center">
+<div class="row">
+  <div style="margin: 20px 10px">
+    {{=IMG(_src=URL('static/images', 'ecoverseLogo.jpeg'), _width="16%",  _target="_blank", _class="img-rounded", _alt="ecoverse")}}
+    {{=IMG(_src=URL('static/images', 'gormleysLogo.png'), _height="250px", _width="16%", _target="_blank", _class="img-rounded", _alt="gormleys")}}
+    {{=IMG(_src=URL('static/images', 'pjLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pj's")}}
+    {{=IMG(_src=URL('static/images', 'plankLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Plank Road")}}
+    {{=IMG(_src=URL('static/images', 'prideLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pride")}}
+    {{=IMG(_src=URL('static/images', 'skylightLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Skylight")}}
+  </div>
+</div>
+<p>Alexander Stott Cleveland GAA &copy; 2023 </p> 
+<p><a style = "color:#2FC284" href="https://www.tri-c.edu/programs/information-technology/programming-and-development/clevelandcodes.html">Cleveland Codes Software Developers Academy &copy; 2023</a></p> 
+</footer>   
+
+</body>
+</html>
+
+
+
+
+
+
+
+
