@@ -246,10 +246,10 @@ body {
     <i class="fa-regular fa-id-card"></i>News
   </a>
   <div class="dropdown">
-    <button class="dropbtn">Adult
+    <button class="dropbtn" onclick="myFunction()">Adult
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
+    <div class="dropdown-content" id="myDropdown">
       <a href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">Men's Gaelic Football</a>
       <a href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">Ladies' Gaelic Football</a>
       <a href="http://127.0.0.1:8000/clevelandGAA/default/hurling">Hurling</a>
