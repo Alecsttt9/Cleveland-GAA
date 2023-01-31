@@ -54,28 +54,31 @@
 
 <!--ABOUT SECTION-->
 <div class="container-fluid text-justified">
+  <hr>
+  <h1 class = "margin">News and Upcoming Events</h1>
+  <hr>
   <div class="row">
-    <div class="col-sm-6">
-        <div>
-        <h2>Cleveland St. Pat's - St. Jarlath's Men's Gaelic Football</h2>
-        <p>Here is where the info about the men's football team will go</p>
-        </div>
-    </div>
+      <div class="col-sm-6">
+          <div class="thumbnail">
+          <h2>Cleveland GAA Ladies Football claim national title! </h2>
+          <p>Hats off to Cleveland St. Pat's - St. Jarlath's GAA Ladies Football team - 2022 North American junior C division champions! </p>
+          <a href = "https://www.facebook.com/photo/?fbid=485950853540416&set=pb.100063765151640.-2207520000.">
+          {{=IMG(_src=URL('static/images', 'natlChamps.jpg'), target="_blank", _class="img-rounded", _width="400",_alt="2022 NA Jr C Champs")}}
+              <!-- !!! NEED LINK TO OPEN IN NEW TAB!!! 1/24/2023-->
+          <!-- <button type="button" class="btn bg-2 btn-primary btn-lg"><span class="glyphicon glyphicon-envelope"></span>   Email</button> -->
+          </a>
+      </div>
+  </div>
+
+  <div class="col-sm-6">
+      <div class="thumbnail">
+      <h2>Indoor Hurling and Camogie 2023</h2>
+      <p>Cleveland GAA is hosting indoor hurling and camogie sessions throughout early 2023</p>
+      {{=IMG(_src=URL('static/images', 'indoorHurling.png'), _target="_blank", _class="img-rounded", _width="400",_alt="indoor hurling")}}
+      <!-- <a href = "faq.html"><button type="button" class="btn bg-2 btn-primary btn-lg"><span class="glyphicon glyphicon-search"></span>   FAQ</button></a> -->
+      </div>
   </div>
 </div>
-
-<div class="container-fluid text-justified">
-  <div class="row">
-    <div class="col-sm-6">
-        <div>
-        <h2>Cleveland GAA Ladies Football claim national title! </h2>
-        <p>Hats off to Cleveland St. Pat's - St. Jarlath's GAA Ladies Football team - 2022 North American junior C division champions! </p>
-        <a href = "https://www.facebook.com/photo/?fbid=485950853540416&set=pb.100063765151640.-2207520000.">
-        {{=IMG(_src=URL('static/images', 'natlChamps.jpg'), target="_blank", _class="img-rounded", _width="400",_alt="2022 NA Jr C Champs")}}
-        </a>
-        </div>
-    </div>
-  </div>
 </div>
 
 
