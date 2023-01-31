@@ -3,6 +3,6 @@
 <head>
     <style>
         p{
-            color: #211A1E
+            color: #211A1E /*raisin black*/
+                 #C3423F /*madder lake */
         }
-    </style>
