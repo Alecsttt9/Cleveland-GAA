@@ -209,6 +209,7 @@ body {
 <!--NEW DROPDOWN NAVBAR 1/30/23-->
 
 <div class="navbar">
+  {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
     <span class="glyphicon glyphicon-home"></span>Home
   </a>
@@ -254,7 +255,8 @@ body {
 
 
 
-<!-- First Navbar 1/17/23-->   
+<!-- First Navbar 1/17/23-->
+<!--
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -264,7 +266,6 @@ body {
         <span class="icon-bar"></span>
       </button>
       {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
-      <!-- {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-responsive img-circle", _style="display:inline", _width="150", _alt="Club Logo")}} -->
       <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
         <span class="glyphicon glyphicon-home"></span>  Home
       </a>
@@ -293,16 +294,9 @@ body {
         <i class="fa fa-bullhorn" aria-hidden="true"></i> Registration
       </a>
     </div>
-    <!--This collapse feature is not functional-->
-    <!--<div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/kacpharmacy/default/testdb"><i class="fa-solid fa-hospital-user"></i>Club History</a></li>
-        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACpharmacy/default/prescriberLookup"><i class="fa-solid fa-user-doctor"></i>Community and Business Partners</a></li>
-        <li><a style = "color: #F1b498" class = "navbar-link" href="http://127.0.0.1:8000/KACPharmacy/default/inventoryLookup"><i class="fa-solid fa-warehouse"></i>Club Shop</a></li>
-      </ul>
-    </div> -->
   </div>
 </nav>
+-->
 
 
 
