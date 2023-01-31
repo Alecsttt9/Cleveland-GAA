@@ -63,6 +63,7 @@ body {
     text-align: center;
     margin: 25px 0;
   }
+      <!-- first navbar css 1/17/2023
   .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -74,7 +75,7 @@ body {
     background-color:  #ED1939;
     color: #FEFEFE;
     overflow: hidden; /* added for dropdown 1/30/23 9.13pm*/
-  }
+  } -->
 .navbar .li {
   border: 1px solid #6f1a07;
   background-color: #4d1e10;
@@ -143,10 +144,18 @@ body {
 }
 
 /* new CSS for dropdown navbar 1/30/23*/
-/*.navbar {    hidden bc class w same name already exists
+.navbar {
   overflow: hidden;
-  background-color: #333;
-}*/
+  background-color: #ED1939;
+  color: #FEFEFE;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14.5px;
+  letter-spacing: 3px;
+}
 
 .navbar a {
   float: left;
@@ -207,7 +216,6 @@ body {
 <body>
 
 <!--NEW DROPDOWN NAVBAR 1/30/23-->
-
 <div class="navbar">
   {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
@@ -217,7 +225,7 @@ body {
     <i class="fa-regular fa-id-card"></i>News
   </a>
   <div class="dropdown">
-    <button class="dropbtn">Adult 
+    <button class="dropbtn">Adult
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
