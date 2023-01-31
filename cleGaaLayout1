@@ -256,15 +256,9 @@ body {
       <a href="http://127.0.0.1:8000/clevelandGAA/default/camogie">Camogie</a>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Youth 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="#">Gaelic Football</a>
-      <a href="#">Hurling and Camogie</a>
-    </div>
-  </div>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <i class="fa-regular fa-id-card"></i>Youth
+  </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
     <i class="fa-regular fa-id-card"></i>Fixtures & Results
   </a>
