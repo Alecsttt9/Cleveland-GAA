@@ -43,13 +43,6 @@
           <h1></h1>
         </div>
       </div>
-
-      <div class="item carousel-inner img">
-        {{=IMG(_src=URL('static/images', 'alec1Resize2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
-        <div class="carousel-caption">
-          <h1></h1>
-        </div>
-      </div>
     </div>
 
     <!-- Left and right controls -->
