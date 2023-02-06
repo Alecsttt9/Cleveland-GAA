@@ -223,7 +223,7 @@ p {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
+  background-color: #fa4545;
 }
 
 .dropdown-content {
