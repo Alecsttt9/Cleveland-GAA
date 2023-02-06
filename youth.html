@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+{{extend 'cleGaaLayout2.html'}}
+
+<!--IMAGE CAROUSEL-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:#19b36a">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active carousel-inner img">
+        {{=IMG(_src=URL('static/images', 'youth1Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        <!-- <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image"> -->
+        <div class="carousel-caption">
+          <h1></h1>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item carousel-inner img">
+        {{=IMG(_src=URL('static/images', 'youth2Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        <div class="carousel-caption">
+          <h1></h1>
+        </div>
+      </div>
+
+      <div class="item carousel-inner img">
+        {{=IMG(_src=URL('static/images', 'youth3Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        <div class="carousel-caption">
+          <h1></h1>
+        </div>
+      </div>
+
+      <div class="item carousel-inner img">
+        {{=IMG(_src=URL('static/images', 'youth4Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        <div class="carousel-caption">
+          <h1></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<body>
+
+<!--ABOUT SECTION-->
+<div class="container-fluid text-justified">
+  <hr>
+  <h1 class = "margin">Cleveland St. Pat's - St. Jarlath's Youth Division</h1>
+  <h2 class = "margin">The Saint's - na Naomh</h2>
+  <hr>
+  <div class="row">
+      <div class="col-sm-6">
+          <div class="about">
+          <h2>About Cleveland GAA Youth</h2>
+          <p> Cleveland has a rich history of Gaelic sports and in 1948 the St. Pat’s Club was established. St. Pat’s would go on to win several national football championships at senior level in 1962, 1964-1966, and 1968. Years later in 1980, St. Jarlath’s formed to become a perpetual favorite within the Midwest and collect national titles at the junior level in 2005 and 2006. After the 2015 national title by St. Pat’s at the junior level, the two Cleveland clubs rejoined.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p><strong>Ready to learn more? Fill out the questionnaire below:</strong></p>
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfk2pgxPZ798M1KQZnv1SCP_xJ2EfsmiTbB3mu1Zc5vALj_dg/viewform?fbzx=-8281587715444469852&pli=1" height="300" width="650" title="Iframe Example"></iframe> 
+          </div>
+        </div>
+
+  <div class="col-sm-6">
+      <div class="about">
+      <h2>Team News & Updates</h2>
+      <details>
+          <summary><strong>Indoor Gaelic Football</strong></summary>
+          <p>Cleveland GAA hosted indoor Gaelic Football practices in December and has more planned for early 2023. Stay tuned for new dates, and check out our recap video.</p><br>
+          {{=IMG(_src=URL('static/images', 'indoorFootball.jpg'), _target="_blank", _class="img-rounded", _width="400",_alt="indoor football")}}
+          <video width="320" height="240" controls>
+          <source src="indoorFootballVid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </details>
+      <details>
+          <summary><strong>Superbowl Square Fundraiser</strong></summary>
+          <p>Details about fundrasier go here</p><br>
+      </details>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<!--2023 Fixtures-->
+<div class="container" style="margin-top:25px">
+    <h2>2023 Fixtures</h2>
+    <!-- <p>The .table-striped class adds zebra-stripes to a table:</p> -->
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Venue</th>
+          <th>Home Team</th>
+          <th>Away Team</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>May 28, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>N/A - Memorial 7's Tournament</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>June 4, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>Detroit Wolfetones</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>June 20, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>PittsBurgh GAA</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>July 1, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>Cincinnatti GAA</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>July 14, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>Buffalo Fenians</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>July 25, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>Albany Rebels</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>August 7-9, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>N/A - Midwest GAA Championship Tournament</td>
+          <td>TBD</td>
+        </tr>
+        <tr>
+          <td>August 22-25, 2023</td>
+          <td>West-Side Irish American Club</td>
+          <td>Cleveland GAA</td>
+          <td>N/A - USGAA Championship Tournament</td>
+          <td>TBD</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<!--Role of Honor-->
+<div class="container" style="margin-top:25px">
+    <h2>Men's Football Roll of Honor</h2>
+    <!-- <p>The .table-striped class adds zebra-stripes to a table:</p> -->
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Competition</th>
+          <th>No. </th>
+          <th>Years</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Midwest Championship</td>
+          <td>32</td>
+          <td>1948-1980</td>
+        </tr>
+        <tr>
+          <td>Senior National Championship</td>
+          <td>5</td>
+          <td>1962, 1964-1966, 1968</td>
+        </tr>
+        <tr>
+          <td>Junior National Championship</td>
+          <td>3</td>
+          <td>2005, 2006, 2015</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
