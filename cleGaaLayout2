@@ -251,6 +251,10 @@ p {
 .show {
   display: block;
 }
+
+.hr-ribbon{
+  background-image: linear-gradient(to right, #19b36a , #ed1939);
+}
   </style>
 </head>
 <body>
