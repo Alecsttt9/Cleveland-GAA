@@ -175,7 +175,7 @@ body {
   border-radius: 0;
   margin-bottom: 0;
   font-size: 14.5px;
-  letter-spacing: 2px;
+  letter-spacing: 1.9px;
 }
 
 .navbar a {
@@ -265,7 +265,7 @@ body {
     Club History
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    Our Sponsors
+    Club Shop & Sponsors
   </a>
   <!-- <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
     Club Shop
