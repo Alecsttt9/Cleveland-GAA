@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 {{extend 'cleGaaLayout2.html'}}
-<div class="container-fluid bg-1 text-center">
+<!-- <div class="container-fluid bg-1 text-center">
     <h1>Cleveland GAA Hurling</h1>
-    <!-- {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _width="500",_alt="Club Logo")}} -->
-</div>
+</div> -->
 
 <!--IMAGE CAROUSEL-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
