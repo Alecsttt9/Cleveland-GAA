@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 {{extend 'cleGaaLayout2.html'}}
-<div class="container-fluid bg-1 text-center">
+<!-- <div class="container-fluid bg-1 text-center">
     <h1>Ladies' Gaelic Football - 2022 Junior C National Champions</h1>
-    <!-- {{=IMG(_src=URL('static/images', 'mensFootball1.jpg'), _class="img-rounded", _width="500",_alt="Club Logo")}} -->
-</div>
+</div> -->
 
 <!--IMAGE CAROUSEL-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -16,7 +15,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active carousel-inner img">
-        {{=IMG(_src=URL('static/images', 'ladiesFootball4.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        {{=IMG(_src=URL('static/images', 'ladiesFootball4Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <!-- <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image"> -->
         <div class="carousel-caption">
           <h1>Ladies' Gaelic Football</h1>
@@ -25,21 +24,21 @@
       </div>
 
       <div class="item carousel-inner img">
-        {{=IMG(_src=URL('static/images', 'ladiesFootball2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        {{=IMG(_src=URL('static/images', 'ladiesFootball2Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
           <h1>Ladies' Gaelic Football</h1>
         </div>      
       </div>
 
       <div class="item carousel-inner img">
-        {{=IMG(_src=URL('static/images', 'ladiesFootball3.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        {{=IMG(_src=URL('static/images', 'ladiesFootball3Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
           <h1>Ladies' Gaelic Football</h1>
         </div>      
       </div>
 
       <div class="item carousel-inner img">
-        {{=IMG(_src=URL('static/images', 'ladiesFootball1.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
+        {{=IMG(_src=URL('static/images', 'ladiesFootball1Resize.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
           <h1>Ladies' Gaelic Football</h1>
         </div>
