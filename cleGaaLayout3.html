@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- THIS IS THE CSS FOR THE Fixtures & Results PAGE -->
+  <title>Prototype Cleveland GAA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/78fc201897.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.container-fluid {
+  padding: 5px 15px; /* originally 60px 50px 1/24/2023 */
+}
+
+.margin {
+    margin-top: 25px;   /* both originally 45px 45px 1/24/2023 */
+    margin-bottom: 15px;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.0;
+  }
+
+p {
+    font-size: 20px;
+}
+
+  .bg-1 {
+    background-color: #03995A; /* Shamrock Green */
+    color: #FEFEFE;
+    /* background-image: url('static/images/allCodes.png'); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .bg-2 { 
+    background-color: #ED1939; /* <!-- #6f1a07; --> */ /* Rasin Black */
+    /* <!-- color: #f1bf98; --> */
+    font-size: 15px;
+    color: #FEFEFE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .bg-3 { 
+    background-image: linear-gradient(to right, #FFBB00, #ED1939);
+    color: #FEFEFE;
+  }
+
+  .bg-4 { 
+    background-color: #955e42; /* Brown Sugar */
+    color: #F1b498
+  }
+
+  .bg-5 {
+    background-color: #748e45;
+    color: #232
+  }
+
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .col-sm-6 {
+    text-align: left;
+    margin: 25px 0;
+  }
+
+  /*
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14.5px;
+    letter-spacing: 3px;
+    background-color:  #ED1939;
+    color: #FEFEFE;
+  }
+
+  .navbar .li {
+  border: 1px solid #6f1a07;
+  background-color: #4d1e10;
+  color: #FEFEFE;
+} */
+
+  .btn {
+  padding: 5px 15px;
+  background-color: #03995A;
+  color: #03995A;
+  border-radius: 0;
+  transition: .2s;
+  font-size: xx-large;
+  }
+
+  .thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+    background-color: #F1b498;
+    color: #ffffff;
+  }
+
+.about{
+    padding: 15px 15px 15px 15px;
+    border-style: solid;
+    border-radius: 0;
+    color: #211A1E;
+}
+.panel {
+    border: 1px solid #6f1a07;
+    border-radius:0;
+    transition: box-shadow 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.panel-heading {
+    color: #f1bf98;
+    background-color: #6F1A07;
+    border-bottom: 3px solid transparent;  
+}
+.panel-body .col-sm-3{
+    width: 25%; 
+    ; 
+    padding: 2%;
+}
+.panel-footer {
+    height: 15%;
+    background-color: #EFEFEF;
+}
+.panel-footer .btn:hover {
+  border: 1px solid #6f1a07;
+  background-color: #ED1939;
+  color: #2b2118;
+}
+.panel-footer .btn {
+    background-color: #03995A;
+    color: #D9976B;
+}
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+
+.carousel-inner img {
+      width: 97%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+      max-height:900px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+    display: none; 
+}
+}
+
+/*** new CSS for clickable dropdown navbar 1/30/23 ***/
+.navbar {
+  overflow: hidden;
+  background-color:  #ED1939;
+  color: #FEFEFE;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14.5px;
+  letter-spacing: 2px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #fa4545;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.ribbon{
+  background-color:#d50000;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.8) 100px,
+      transparent 0px,
+      transparent 200px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5) 100px,
+      transparent 0px,
+      transparent 200px
+    );
+}
+
+hr{
+  background-color:#d50000;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.8) 100px,
+      transparent 0px,
+      transparent 200px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5) 100px,
+      transparent 0px,
+      transparent 200px
+    );
+}
+
+  </style>
+</head>
+<body>
+
+<!--EXTENDED w/ SOCIAL MEDIA NAVBAR AND NO GLYPHICONS 2/06/23-->
+<div class="navbar">
+  <!-- {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}} -->
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    <span class="glyphicon glyphicon-home"></span>Home
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">
+    Men's Football
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">
+    Ladies' Football
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/hurling">
+    Hurling
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/camogie">
+    Camogie
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/youth">
+    Youth
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/fixturesAndResults">
+    Fixtures & Results
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/clubHistory">
+    Club History
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    Our Sponsors
+  </a>
+  <!-- <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    Club Shop
+  </a> -->
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    Registration
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="https://www.facebook.com/ClevelandGaelic/">
+    <i class="fab fa-facebook-f"></i> 
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="https://www.instagram.com/clevelandgaelic/">
+    <i class="fab fa-instagram"></i>
+  </a> 
+</div>
+
+
+<!-- MAIN CONTENT HERE -->
+<!-- Begin page content -->
+<div class="container-fluid main-container">
+      {{include}}
+      {{=response.toolbar() if response.show_toolbar else ''}}
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-1 text-center">
+    <div class="row">
+      <div style="margin: 20px 10px">
+        {{=IMG(_src=URL('static/images', 'ecoverseLogo.jpeg'), _width="16%",  _target="_blank", _class="img-rounded", _alt="ecoverse")}}
+        {{=IMG(_src=URL('static/images', 'gormleysLogo.png'), _height="250px", _width="16%", _target="_blank", _class="img-rounded", _alt="gormleys")}}
+        {{=IMG(_src=URL('static/images', 'pjLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pj's")}}
+        {{=IMG(_src=URL('static/images', 'plankLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Plank Road")}}
+        {{=IMG(_src=URL('static/images', 'prideLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pride")}}
+        {{=IMG(_src=URL('static/images', 'skylightLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Skylight")}}
+      </div>
+    </div>
+    <p>Alexander Stott Cleveland GAA &copy; 2023 </p> 
+    <p><a style = "color:#2FC284" href="https://www.tri-c.edu/programs/information-technology/programming-and-development/clevelandcodes.html">Cleveland Codes Software Developers Academy &copy; 2023</a></p> 
+  </footer>  
+
+</body>
+</html>
