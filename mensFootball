@@ -18,36 +18,36 @@
         {{=IMG(_src=URL('static/images', 'mensFootball2Resize2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <!-- <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image"> -->
         <div class="carousel-caption">
-          <h1>Men's Gaelic Football</h1>
+          <h1></h1>
           <p></p>
-        </div>      
+        </div>
       </div>
 
       <div class="item carousel-inner img">
         {{=IMG(_src=URL('static/images', 'mensFootball4Resize2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
-          <h1>Men's Gaelic Football</h1>
+          <h1></h1>
         </div>
       </div>
 
       <div class="item carousel-inner img">
         {{=IMG(_src=URL('static/images', 'mensFootball5Resize2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
-          <h1>Men's Gaelic Football</h1>
+          <h1></h1>
         </div>
       </div>
 
       <div class="item carousel-inner img">
         {{=IMG(_src=URL('static/images', 'mensFootball6Resize2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
-          <h1>Men's Gaelic Football</h1>
+          <h1></h1>
         </div>
       </div>
 
       <div class="item carousel-inner img">
         {{=IMG(_src=URL('static/images', 'alec1Resize2.jpg'), _class="img-rounded", _alt="Men's Football Club")}}
         <div class="carousel-caption">
-          <h1>Men's Gaelic Football</h1>
+          <h1></h1>
         </div>
       </div>
     </div>
