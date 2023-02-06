@@ -175,7 +175,7 @@ body {
   border-radius: 0;
   margin-bottom: 0;
   font-size: 14.5px;
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
 }
 
 .navbar a {
@@ -237,43 +237,47 @@ body {
 </head>
 <body>
 
-<!--NEW DROPDOWN NAVBAR 1/30/23-->
+<!--EXTENDED w/ SOCIAL MEDIA NAVBAR AND NO GLYPHICONS 2/06/23-->
 <div class="navbar">
-  {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
+  <!-- {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}} -->
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
     <span class="glyphicon glyphicon-home"></span>Home
   </a>
-  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>News
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">
+    Men's Football
   </a>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Adult
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">Men's Gaelic Football</a>
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">Ladies' Gaelic Football</a>
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/hurling">Hurling</a>
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/camogie">Camogie</a>
-    </div>
-  </div>
-  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Youth
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">
+    Ladies' Football
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/hurling">
+    Hurling
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/camogie">
+    Camogie
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Fixtures & Results
+    Youth
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>About the Club
+    Fixtures & Results
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Our Sponsors
+    About the Club
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Club Shop
+    Our Sponsors
   </a>
+  <!-- <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    Club Shop
+  </a> -->
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Registration
+    Registration
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="https://www.facebook.com/ClevelandGaelic/">
+    <i class="fab fa-facebook-f"></i> 
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="https://www.instagram.com/clevelandgaelic/">
+    <i class="fab fa-instagram"></i>
   </a> 
 </div>
 
@@ -334,12 +338,14 @@ body {
 <footer class="container-fluid bg-1 text-center">
   <div class="row">
     <div style="margin: 20px 10px">
-      {{=IMG(_src=URL('static/images', 'ecoverseLogo.jpeg'), _width="16%",  _target="_blank", _class="img-rounded", _alt="ecoverse")}}
-      {{=IMG(_src=URL('static/images', 'gormleysLogo.png'), _height="250px", _width="16%", _target="_blank", _class="img-rounded", _alt="gormleys")}}
-      {{=IMG(_src=URL('static/images', 'pjLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pj's")}}
-      {{=IMG(_src=URL('static/images', 'plankLogo.jpeg'), _width="16%", _target="_blank", _class="img-rounded", _alt="Plank Road")}}
-      {{=IMG(_src=URL('static/images', 'prideLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Pride")}}
-      {{=IMG(_src=URL('static/images', 'skylightLogo.png'), _width="16%", _target="_blank", _class="img-rounded", _alt="Skylight")}}
+        <center>
+      {{=IMG(_src=URL('static/images', 'ecoverseLogo.jpeg'), _width="10%",  _target="_blank", _class="img-rounded", _alt="ecoverse")}}
+      {{=IMG(_src=URL('static/images', 'gormleysLogo.png'), _width="10%", _target="_blank", _class="img-rounded", _alt="gormleys")}}
+      {{=IMG(_src=URL('static/images', 'pjLogo.jpeg'), _width="10%", _target="_blank", _class="img-rounded", _alt="Pj's")}}
+      {{=IMG(_src=URL('static/images', 'plankLogo.jpeg'), _width="10%", _target="_blank", _class="img-rounded", _alt="Plank Road")}}
+      {{=IMG(_src=URL('static/images', 'prideLogo.png'), _width="10%", _target="_blank", _class="img-rounded", _alt="Pride")}}
+      {{=IMG(_src=URL('static/images', 'skylightLogo.png'), _width="10%", _target="_blank", _class="img-rounded", _alt="Skylight")}}
+        </center>
     </div>
   </div>
   <p>Alexander Stott Cleveland GAA &copy; 2023 </p> 

@@ -168,7 +168,7 @@ p {
 }
 
 .carousel-inner img {
-      width: 95%; /* Set width to 100% */
+      width: 97%; /* Set width to 100% */
       margin: auto;
       min-height:200px;
       max-height:900px;
@@ -193,7 +193,7 @@ p {
   border-radius: 0;
   margin-bottom: 0;
   font-size: 14.5px;
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
 }
 
 .navbar a {
@@ -255,43 +255,47 @@ p {
 </head>
 <body>
 
-<!--NEW DROPDOWN NAVBAR 1/30/23-->
+<!--EXTENDED w/ SOCIAL MEDIA NAVBAR AND NO GLYPHICONS 2/06/23-->
 <div class="navbar">
-  {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}}
+  <!-- {{=IMG(_src=URL('static/images', 'clubLogo.jpeg'), _class="img-thumbnail",_width="60", _alt="Club Logo")}} -->
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
     <span class="glyphicon glyphicon-home"></span>Home
   </a>
-  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>News
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">
+    Men's Football
   </a>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Adult
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/mensFootball">Men's Gaelic Football</a>
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">Ladies' Gaelic Football</a>
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/hurling">Hurling</a>
-      <a href="http://127.0.0.1:8000/clevelandGAA/default/camogie">Camogie</a>
-    </div>
-  </div>
-  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Youth
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/ladiesFootball">
+    Ladies' Football
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/hurling">
+    Hurling
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/camogie">
+    Camogie
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Fixtures & Results
+    Youth
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>About the Club
+    Fixtures & Results
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Our Sponsors
+    About the Club
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Club Shop
+    Our Sponsors
   </a>
+  <!-- <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+    Club Shop
+  </a> -->
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
-    <i class="fa-regular fa-id-card"></i>Registration
+    Registration
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="https://www.facebook.com/ClevelandGaelic/">
+    <i class="fab fa-facebook-f"></i> 
+  </a>
+  <a style = "color: #FEFEFE" class = "navbar-link" href="https://www.instagram.com/clevelandgaelic/">
+    <i class="fab fa-instagram"></i>
   </a> 
 </div>
 
