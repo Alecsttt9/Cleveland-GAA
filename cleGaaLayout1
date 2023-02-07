@@ -264,13 +264,13 @@ body {
   <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/clubHistory">
     Club History
   </a>
-  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/clubShopAndSponsors">
     Club Shop & Sponsors
   </a>
   <!-- <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
     Club Shop
   </a> -->
-  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/index">
+  <a style = "color: #FEFEFE" class = "navbar-link" href="http://127.0.0.1:8000/clevelandGAA/default/registration">
     Registration
   </a>
   <a style = "color: #FEFEFE" class = "navbar-link" href="https://www.facebook.com/ClevelandGaelic/">
