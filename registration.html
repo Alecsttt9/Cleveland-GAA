@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+{{extend 'cleGaaLayout2.html'}}
+
+<style>
+
+body {
+      background-image: url('static/images/allCodesAltResize.jpg');
+}
+</style>
+
+<body>
+
+
+<!--ABOUT SECTION-->
+<div class="container-fluid text-justified">
+  <hr class="new5">
+  <h1 class = "margin">Resources for new and returning players</h1>
+  <h2 class = "margin">The Saints - na Naomh</h2>
+  <hr class="new5">
+  <div class="row">
+      <div class="col-sm-6">
+          <div class="about" style="background-color: #F4F1E8;">
+          <h1>New Players</h1>
+          <p> Cleveland Gaelic Athletic Association (GAA) is comprised of four teams: <strong>Men's Football, Ladies' Football, Hurling, and Camogie</strong>. Competing within the USGAA's <a href="https://usgaa.org/division/midwest-division/">Midwest Division,</a> Cleveland GAA faces opponents in Buffalo, Cinncinnatti, Detroit, and Pittsburgh. The club's home pitch, Pairc na Naomh, is located at the <a href="https://wsia-club.org/">West Side Irish American Club</a> in Olmsted Township.</p>
+          <h3 style="text-align: center;"><strong>Ready to learn more? Fill out the questionnaire below:</strong></h3>
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfk2pgxPZ798M1KQZnv1SCP_xJ2EfsmiTbB3mu1Zc5vALj_dg/viewform?fbzx=-8281587715444469852&pli=1" height="650" width="650" title="Iframe Example"></iframe>
+          </div>
+        </div>
+
+  <div class="col-sm-6">
+      <div class="about" style="background-color: #F4F1E8;">
+      <h1>Returning Players</h1>
+      <em><p>Click to expand sections</p></em>
+      <details open>
+          <summary><strong>USGAA Registration</strong></summary>
+          <p>All new and returning players are required to register annually with the USGAA.</p>
+          <p>Click on the picture below to navigate to USGAA registration. <em>Make sure to register with "2023 Midwest Division" as highlighted.</em></p>
+          <a href="https://www.secure-sam.com/usgaa.bonzidev.com/sam/registration/reg_list.php?">
+          {{=IMG(_src=URL('static/images', 'registrationPic.png'), _width="100%", _class="img-rounded", _alt="Registration")}}
+          </a>
+      </details>
+      <details>
+          <summary><strong>Club Dues</strong></summary>
+          <p>New and returning players are required to pay annual dues to Cleveland GAA. Click the picture to navigate to PayPal and submit your dues</p>
+          <p>Adult Rate: $80</p>
+          <p>Student and Youth Rate: $40</p>
+          <a href="https://www.paypal.com/paypalme/clevelandgaa">
+          {{=IMG(_src=URL('static/images', 'paypalPic.png'), target="_blank", _class="img-rounded", _width="100%",_alt="PayPal")}}
+          </a>
+      </details>
+      <details>
+          <summary><strong>Midwest Division</strong></summary>
+          <p>Visit the Midwest GAA's website to learn more about our division: <a href="https://usgaa.org/division/midwest-division/">usgaa.org/division/midwest-division/</a></p>
+          <iframe src="https://usgaa.org/division/midwest-division/" height="550" width="700" title="Iframe Example"></iframe>
+      </details>
+       <details>
+          <summary><strong>USGAA</strong></summary>
+          <p>Read more about our club's governing body, the USGAA: <a href="https://usgaa.org/">https://usgaa.org/</a></p>
+           <iframe src="https://usgaa.org/" height="550" width="700" title="Iframe Example"></iframe>
+      </details>
+      </div>
+  </div>
+</div>
+</div>
+
+</body>
+
+</html>
